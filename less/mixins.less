@@ -1,1 +1,31 @@
 // Mixins Here
+
+.font-styles() {
+    font-family: 'Ubuntu', sans-serif;
+    color: @main-font-color;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+
+
+.custom-btn(@btn-bg-color, @width, @font-color) {
+    background: @btn-bg-color;
+    color: @font-color;
+    width: @width;
+    display: block;
+    background-color: @btn-bg-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    padding-top: 4%;
+
+    &:hover {
+        background-color: @font-color;
+        color: @btn-bg-color;
+        font-weight: bold;
+
+    }
+
+}
