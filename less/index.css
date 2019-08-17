@@ -144,12 +144,6 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
-  font-weight: bold;
-}
-h1 {
-  font-size: 4rem;
-  font-weight: bold;
-  margin-top: 3%;
 }
 h2 {
   font-size: 3.2rem;
@@ -158,43 +152,13 @@ h3 {
   font-size: 2.8rem;
 }
 p {
-  font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
   font-size: 1.6rem;
   line-height: 1.4;
-}
-a {
-  font-size: 1.9rem;
 }
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-}
-.nav-bar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #F6F6F6;
-  width: 100vw;
-  border: 1px solid #F1F1F1;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-  margin-top: 2%;
-  margin-bottom: 1%;
-}
-nav a {
-  text-decoration: none;
-  color: #454A59;
-}
-@media (max-width: 500px) {
-  nav {
-    justify-content: space-evenly;
-    width: 100%;
-  }
 }
 footer {
   color: #22283B;
@@ -205,9 +169,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.home .header-img img {
-  border-radius: 10px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -259,49 +220,4 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-.home footer {
-  font-weight: bold;
-  color: #81848E;
-}
-.home .btn {
-  background: #22283A;
-  color: #F1F1F1;
-  width: 125px;
-  display: block;
-  background-color: #22283A;
-  margin: 0 10px 20px;
-  cursor: pointer;
-  height: 45px;
-  border-radius: 10px;
-  font-size: 1.6rem;
-  padding-top: 4%;
-  text-align: center;
-}
-.home .btn:hover {
-  background-color: #F1F1F1;
-  color: #22283A;
-  font-weight: bold;
-}
-@media (max-width: 500px) {
-  .sky,
-  .launch {
-    display: none;
-    visibility: hidden;
-  }
-  .walk {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .walk-text h3 {
-    margin-top: 5%;
-  }
-  .walk-text p {
-    display: flex;
-    width: 100vw;
-  }
-  .walk-text .btn {
-    width: 100%;
-    padding-bottom: 4%;
-  }
 }
